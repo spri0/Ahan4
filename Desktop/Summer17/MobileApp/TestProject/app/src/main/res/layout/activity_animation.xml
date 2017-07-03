@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.gsu.httpcs.testproject.AnimationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <Button
+            android:id="@+id/activity_animation_bt1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textSize="10sp"
+            android:textAllCaps="false"
+            android:text="Alpha"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/activity_animation_bt2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textSize="10sp"
+            android:textAllCaps="false"
+            android:text="Scale"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/activity_animation_bt3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textSize="10sp"
+            android:textAllCaps="false"
+            android:text="Rotate"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/activity_animation_bt4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textSize="10sp"
+            android:textAllCaps="false"
+            android:text="Trans"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/activity_animation_bt5"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textSize="10sp"
+            android:textAllCaps="false"
+            android:text="Set"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_animation_tv"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="100dp"
+        android:text="Animation"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

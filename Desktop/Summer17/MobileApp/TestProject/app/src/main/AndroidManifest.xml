@@ -1,21 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.gsu.httpcs.testproject" >
+    package="edu.gsu.httpcs.testproject">
 
     <application
+        android:name=".ahan4Application"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="ahan4.2017"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name=".MainActivity" >
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ViewPagerActivity" />
+        <activity
+            android:name=".ActivityA"
+            android:launchMode="standard" />
+        <activity android:name=".ScaleTypeActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".AdvanceListViewActivity" />
+        <activity android:name=".NinePatchActivity" />
+        <activity android:name=".AdvanceViewPagerActivity" />
+        <activity
+            android:name=".ActivityB"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".ActivityC"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ActivityD"
+            android:launchMode="singleInstance" />
+        <activity android:name=".ResultActivity1" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".ResultActivity2" />
+        <activity android:name=".RadioGroupActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".HandlerActivity" />
+        <activity android:name=".CustomDialog" />
+        <activity android:name=".AnimationActivity" />
+        <activity android:name=".RunableHandlerActivity" />
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".AnimatorActivity" />
+        <activity android:name=".GestureActivity"></activity>
     </application>
 
 </manifest>
